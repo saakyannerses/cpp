@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int elements[8] = {37, 0, 50, 46, 34, 46, 0, 13};
+    cout << "Первый элемент массива равен " << elements[0] << endl;
+    cout << "Второй элемент массива равен " << elements[1] << endl;
+    cout << "Третий элемент массива равен " << elements[2] << endl;
+    cout << "Четвертый элемент массива равен " << elements[3] << endl;
+    cout << "Пятый элемент массива равен " << elements[4] << endl;
+    cout << "Шестой элемент массива равен " << elements[5] << endl;
+    cout << "Седьмой элемент массива равен " << elements[6] << endl;
+    cout << "Восьмой элемент массива равен " << elements[7] << endl;
+
+    return 0;
+}

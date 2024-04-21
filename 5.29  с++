@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    float sum = 0;
+    int count = 0;
+
+    // Ввод значений a и b
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+
+    // Проверка условия b >= a
+    if (b < a) {
+        cout << "Ошибка: b должно быть больше или равно a." << endl;
+        return 0;
+    }
+
+    // Вычисление среднего арифметического
+    for (int i = a; i <= b; i++) {
+        sum += i;
+        count++;
+    }
+
+    float average = sum / count;
+
+    // Вывод результата
+    cout << "Среднее арифметическое: " << average << endl;
+
+    return 0;
+}

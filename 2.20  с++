@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    float e, f, g, h, a, b, c;
+
+    // Ввод значений e, f, g и h
+    cout << "Введите значение e: ";
+    cin >> e;
+    cout << "Введите значение f: ";
+    cin >> f;
+    cout << "Введите значение g: ";
+    cin >> g;
+    cout << "Введите значение h: ";
+    cin >> h;
+
+    // Вычисление значения a
+    a = sqrt(fabs(pow(e - 3 / f, 3) + g));
+
+    // Вычисление значения b
+    b = sin(e) + pow(cos(h), 2);
+
+    // Вычисление значения c
+    c = 33 * g / (e * f - 3);
+
+    // Вывод результатов
+    cout << "Значение a: " << a << endl;
+    cout << "Значение b: " << b << endl;
+    cout << "Значение c: " << c << endl;
+
+    return 0;
+}

@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    float x, y;
+
+    // Ввод значения x
+    cout << "Введите значение x: ";
+    cin >> x;
+
+    // Вычисление значения y
+    if (x > 0) {
+        y = sin(pow(x, 2));
+    } else {
+        y = 1 + 2 * pow(sin(x), 2);
+    }
+
+    cout << "Значение y: " << y << endl;
+
+    return 0;
+}

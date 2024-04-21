@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    float a, b, x, y;
+
+    // Ввод значений a и b
+    std::cout << "Введите значение a: ";
+    std::cin >> a;
+    std::cout << "Введите значение b: ";
+    std::cin >> b;
+
+    // Вычисление значения x
+    x = (2 / (a * a + 25) / sqrt(b)) + ((a + b) / 2);
+
+    // Вычисление значения y
+    y = std::abs(a) + (2 * sin(b)) / (5.5 * a);
+
+    std::cout << "Значение x: " << x << std::endl;
+    std::cout << "Значение y: " << y << std::endl;
+
+    return 0;
+}
